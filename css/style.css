@@ -1,0 +1,159 @@
+    #div_tong{
+	    background: red;
+		width: 100%;
+		height: 2000px;
+	}
+
+	/*div_tren*/
+	#div_tren{
+		background: white;
+		width: 100%;
+		height: 60px;
+		float: bottom;
+	}
+	#div_tren >.trai{
+		background: #DDA0DD;
+		width: 30%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	#div_tren > .giua{
+		background: #DDA0DD;
+		width: 50%;
+		height: 100%;
+		float: left;
+	    text-align: center;
+	}
+	#div_tren > .phai{
+		background:#DDA0DD;
+		width: 20%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	#div_tren > .phai > .tren{
+		background: #DDA0DD;
+		width: 100%;
+		height: 30%;
+		float: left;
+		text-align: left;
+	}
+	#div_tren > .phai > .duoi{
+		background: #DDA0DD;
+		width: 100%;
+		height: 70%;
+		float: left;
+		text-align: center;
+	}
+
+	/*div_cong_cu*/
+	#div_cong_cu{
+		background: #4bc970;
+		width: 100%;
+		height: 40px;
+		float: bottom;
+	}
+	#div_cong_cu > .trai{
+		background: #FFE1FF;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+	#div_cong_cu > .giua{
+		background: #FFE1FF;
+		width: 70%;
+		height: 100%;
+		float: left;
+	}
+	#div_cong_cu > .phai{
+		background: #FFE1FF;
+		width: 15%;
+		height: 100%;
+		float: left;
+	}
+
+
+	/*div_giua*/
+	#div_giua{
+		background: #D3D3D3;
+		width: 100%;
+		height: 1700px;
+		float: bottom;
+	}
+	#div_giua > .trai{
+		background: #FFF0F5;
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+	#div_giua > .giua{
+		background: #FFF0F5;
+		width: 80%;
+		height: 100%;
+		float: left;
+	}
+	#div_giua > .phai{
+		background: #FFF0F5;
+		width: 10%;
+		height: 100%;
+		float: left;
+	}
+
+	/*div_duoi*/
+	#div_duoi {
+        background: #FFE1FF;
+        width: 100%;
+        height: 200px;
+        float: bottom;
+    }
+ 
+	/*tìm kiếm*/
+	input[type='text'] {
+ 	    width: 70%;
+ 		padding: 8px;
+ 		margin: 12px;
+	}
+	button[type='submit']{
+		width: 80px;
+		height: 34px;
+	}
+
+	/*menu*/
+	ul{
+		list-style-type: none;
+		padding: 0px ;
+		margin: 0px;
+	}
+	ul > li{	
+		float: left;
+		width: 160px;
+		height: 28px;
+		text-align: center;
+		display: block;
+		padding-bottom: 0;
+		position: relative;
+		margin: 5px;
+	}
+	ul> li > ul{
+		display: none;
+	}
+	ul > li:hover ul{
+		display: block;
+		position: absolute;
+		background: #F8F8FF;
+		width: 350px;
+		height: 300px;
+		float: left;
+		top: 29px;
+		border: 1px solid black;	
+	}
+	ul > li > ul > li{
+		margin: 5px ;
+		border: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		font-weight: 500;
+	} 
