@@ -32,5 +32,5 @@ session_start();
 $_SESSION['id'] = $id;
 $_SESSION['name'] = $name;
 
-header('location:member.php');
+header('location:signin.php');
 mysqli_close($connect);
