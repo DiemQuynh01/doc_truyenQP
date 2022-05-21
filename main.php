@@ -31,45 +31,13 @@ $result = mysqli_query($connect,$sql);
 		<div>
 			<div class="title">
 			<font color="purple">
-				<h3> TRUYỆN ĐỀ CỬ > </h3>
-			</font>
-		    </div>
-		    <?php foreach ($result as $each): ?>
-		    <div class="stories_list">
-			    <a href="show_story.php?id=<?php echo $each['id'] ?>" title="<?php echo $each['title'] ?>">
-			        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='200'>
-				    <br>
-				    <?php echo $each['title'] ?>
-			    </a>	
-	        </div>
-	        <?php endforeach ?>
-		</div>
-		<div>
-			<div class="title">
-			<font color="purple">
 				<h3> TRUYỆN MỚI CẬP NHẬT > </h3>
 			</font>
 		    </div>
 		    <?php foreach ($result as $each): ?>
 		    <div class="stories_list">
 			    <a href="show_story.php?id=<?php echo $each['id'] ?>" title="<?php echo $each['title'] ?>">
-			        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='200'>
-				    <br>
-				    <?php echo $each['title'] ?>
-			    </a>	
-	        </div>
-	        <?php endforeach ?>
-		</div>
-		<div>
-			<div class="title">
-			<font color="purple">
-				<h3> TRUYỆN HOT > </h3>
-			</font>
-		    </div>
-		    <?php foreach ($result as $each): ?>
-		    <div class="stories_list">
-			    <a href="show_story.php?id=<?php echo $each['id'] ?>" title="<?php echo $each['title'] ?>">
-			        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='200'>
+			        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='200' width='150'>
 				    <br>
 				    <?php echo $each['title'] ?>
 			    </a>	
