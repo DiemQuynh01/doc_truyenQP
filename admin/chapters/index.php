@@ -6,7 +6,6 @@
 	<title></title>
 </head>
 <body>
-<h1>Danh sách chương</h1>
 <br>
 <?php 
     if(empty($_GET['id'])){
@@ -22,6 +21,13 @@
 	$chapters = mysqli_query($connect,$sql);
 	$each = mysqli_fetch_array($chapters);
 ?>
+<h2>
+	<?php foreach($result as $story): ?>
+    <?php if($each['story_id'] == $story['id']){
+        echo $story['title'];
+    } ?>  
+<?php endforeach ?>
+</h2>
 <a href="form_insert.php">
 	Thêm
 </a>
