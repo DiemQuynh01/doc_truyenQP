@@ -2,7 +2,7 @@
 
 require '../check_admin_login.php'; 
 
-if(empty($_POST['title']) || empty($_POST['description']) || empty($_POST['image']) || empty($_POST['author']) || empty($_POST['status'])){ //nếu trống 1 cái gì thì trở về form insert
+if(empty($_POST['title']) || empty($_POST['description']) || empty($_POST['author']) || empty($_POST['status']) ){ //nếu trống 1 cái gì thì trở về form insert
 	header('location:form_insert.php?error=Vui lòng điền đầy đủ thông tin.');
 	exit;
 }
@@ -28,3 +28,5 @@ values('$title', '$description', '$file_name', '$author', '$status','$category_i
 
 mysqli_query($connect,$sql);
 mysqli_close($connect);
+
+header('location:index.php?success=Thêm thành công');
