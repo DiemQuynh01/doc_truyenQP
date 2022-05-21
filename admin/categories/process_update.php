@@ -33,4 +33,4 @@ if(empty($error)){
 	header("location:form_update.php?id=$id&error=Lỗi truy vấn");
 }
 
-//lỗi truy vấn <=> thiết SET
+//lỗi truy vấn <=> thiếu SET
