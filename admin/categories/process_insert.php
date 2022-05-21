@@ -4,6 +4,7 @@ require '../check_super_admin_login.php';
 
 if(empty($_POST['name'])){
 	header('location:form_insert.php?error=Phải điền tên');
+	exit;
 }
 
 $name = $_POST['name'];
