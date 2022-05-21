@@ -6,7 +6,7 @@
 	<title></title>
 </head>
 <body>
-	<h3>Thay Đổi Thể Loại Truyện</h3>
+	<h3>Sửa Thể Loại Truyện</h3>
 	<?php
 	    if(empty($_GET['id'])){
 	    	header('location:index.php?error=Phải truyền mã để sửa');
