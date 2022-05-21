@@ -40,10 +40,6 @@
 <div id="div_giua">
 	<div class="trai"></div>
 	<div class="giua">
-        <?php include 'list.php'; ?>
-        <div>
-            <?php echo $each['story_id']; ?>
-        
 		<div>
             <a href="show_story.php?id=<?php echo $each['story_id'] ?>">
                 <h1 class="title">
@@ -68,7 +64,6 @@
             <div class="content">
                 <?php echo nl2br($each['content']); ?>  
             </div>
-        </div>
         </div>
 	</div>
 	<div class="phai"></div>
