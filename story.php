@@ -77,7 +77,7 @@
 	        
 	        <div class="info_image">
 	    	    <div class="image">
-	    	        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='340'>
+	    	        <img src="admin/stories/images/<?php echo $each['image'] ?>" height='340' width='260'>
 	            </div>
 	            <div class="info">
 	    	        <div>
