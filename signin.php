@@ -30,6 +30,13 @@
 		<br>
 
 		<button>Đăng nhập</button>
+
+		<br>
+		<small>
+            <p>
+                Bạn chưa có tài khoản? Đăng ký <a href="signup.php">Tại đây</a>
+            </p>
+        </small>
 	</form>
 </body>
 </html>
